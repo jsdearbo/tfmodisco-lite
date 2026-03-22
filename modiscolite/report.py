@@ -1,10 +1,14 @@
 import os
 import h5py
+import types
+import pickle
 import pandas
 import shutil
 import tempfile
 import logomaker
 
+import matplotlib
+matplotlib.use('pdf')
 from matplotlib import pyplot as plt
 
 import numpy as np
